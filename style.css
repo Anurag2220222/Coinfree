@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+h1 {
+    font-size: 47px;
+    line-height: 55px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+
+h6 {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+    color: #7d8294;
+}
+
+ul li a {
+    font-size: 18px;
+}
+
+header {
+    background-color: #f4fafa;
+}
+
+nav button {
+    background-color: #3aada5;
+    border: none;
+}
+
+.dropdown-menu {
+    background-color: #004442;
+    color: #000000;
+}
+
+.dropdown-menu button:hover {
+    background-color: #000000;
+    color:#ffffff;
+}
+
+
+.banner {
+    background-color: #f4fafa;
+
+}
+
+.banner h5 {
+    background-color: #ecfbfa;
+    color: #3aada5;
+    padding: 5px 10px;
+}
+
+.banner p {
+    width: 75%;
+}
+/* annimatin start*/
+.anm{
+    background-color: #3aada5;
+  color: #ffffff;
+  padding: 7px 12px;
+  border: none;
+  display: inline-flex;
+
+}
+
+
+.anm:hover {
+    padding-right:30px;
+    transition: all 0.3s;
+}
+
+.anm i {
+    margin-left: 10px;
+    transition:all  0.3s ease;
+    opacity: 0;
+}
+
+.anm:hover i {
+    opacity: 1;
+    transform: translateX(20px);
+    transition: opacity 0.3s ease, visibility, transform 0.3s ease;
+}
+
+/* annimation END*/
+
+
+
+
+.banner .play {
+    border: 1px solid #00000030;
+    background-color: #ffffff !important;
+    color: #3aada5;
+    padding: 8px 17px;
+    margin: 0px 5px;
+}
+
+
+
+
+
+.text-icon p {
+    color: #004442;
+}
+
+.logo-main,
+.take {
+    background-color: #004442;
+}
+
+.logo-section {
+    text-align: center;
+}
+
+.logo-section img {
+    max-width: 100px;
+}
+
+.table-main {
+    overflow-x: scroll;
+}
+
+table {
+    width: 100%;
+}
+
+table button {
+    padding: 5px 26px;
+    border: 1px solid #00000030;
+    margin: 5px 0px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+table td {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+table td img {
+    max-width: 30px;
+}
+
+table tr:nth-child(1) {
+    font-size: 14px;
+    color: #68686a;
+    font-weight: 600;
+}
+
+table tr:nth-child(even) {
+    background-color: #f5f6fa;
+}
+
+.new-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+
+
+.reasons,
+.order,
+.bonce,
+.information {
+    background-color: #f5f6fa;
+}
+
+.reasons .market,
+.advanced {
+    background-color: #ffffff;
+}
+
+.advanced .limit {
+    border: 1px solid #00000030;
+}
+
+.advanced img {
+    max-width: 35px;
+}
+
+.advanced .limit:active {
+    outline: 1px solid #3aada5;
+}
+.advanced .limit:hover {
+    outline: 1px solid #3aada5;
+}
+.advanced input{
+    accent-color:  #000000;
+}
+.advanced input:hover{
+    accent-color:  #3aada5;
+}
+.Innovation i {
+    border: 2px solid #000;
+    padding: 2px 3px;
+    border-radius: 14px;
+}
+
+.Innovation img,
+.building img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.coinflow i {
+    border: 1px solid #00000030;
+    padding: 11px 12px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.coinflow p {
+    max-width: 377px;
+    margin: auto;
+}
+
+footer ul li a {
+    line-height: 38px;
+    color: #7d8294;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 47px;
+        line-height: 55px;
+
+    }
+    p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .building {
+        text-align: center;
+    }
+
+    .building img {
+
+        width: 80%;
+
+    }
+
+    .savnnah {
+        margin: 20px;
+    }
+
+    .savnnah {
+        max-width: 80%;
+        margin: 20px auto 0px auto;
+    }
+    .coinflow p {
+        max-width: 300px;
+        margin: 10px auto 15px auto;
+}
+}
+
+@media screen and (max-width: 991px) {
+    h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    h5 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .banner p {
+        width: 70%;
+        margin: 0px auto 10px auto;
+    }
+
+    .digital {
+        text-align: center;
+    }
+
+    .savnnah {
+        margin-top: 20px;
+    }
+    .coinflow p {
+        max-width: 300px;
+        margin: 10px auto 15px auto;
+}
+footer {
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    h5 {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    
+    .savnnah {
+        margin-top: 20px;
+    }
+
+    .new-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 20px;
+    }
+
+    .new-main div {
+        margin-top: 20px;
+    }
+    .coinflow p {
+        max-width: 300px;
+        margin: 10px auto 15px auto;
+}
+footer ul li a {
+    line-height: 38px;
+    color: #7d8294;
+    font-size: 15px;
+  }
+footer {
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 576px) {
+
+    h1 {
+        font-size: 32px;
+        line-height: 40px
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    h6 {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .banner {
+        text-align: center;
+    }
+
+    .banner p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .there {
+        padding: 22px 32px;
+    }
+
+    .logo-section,
+    .coinflow {
+        text-align: center;
+    }
+
+    .savnnah {
+        margin-top: 20px;
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .new-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 20px;
+    }
+
+    .new-main div {
+        margin-top: 20px;
+    }
+
+    .coinflow p {
+        max-width: 216px;
+        margin: 10px auto 15px auto;
+}
+.Innovation{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.building img {
+    width: 100%;
+}
+.savnnah {
+    max-width: 95%;
+    margin: 20px auto 0px auto;
+}
+.copy{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+}
